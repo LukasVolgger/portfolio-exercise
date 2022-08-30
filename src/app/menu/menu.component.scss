@@ -7,7 +7,7 @@ header {
     right: 0;
     z-index: 1;
     background-color: transparent;
-    padding: 16px 120px 0 120px;
+    padding: 16px 120px 16px 120px;
     a {
         color: white;
         margin-left: 36px;
@@ -27,4 +27,18 @@ header {
 .logo {
     width: 96px;
     object-fit: contain;
+}
+
+.dark-links {
+    a {
+        color: black;
+        &:hover {
+            color: rgba(0, 0, 0, 0.8);
+        }
+    }
+}
+
+.header-dark {
+    background-color: white;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
 }

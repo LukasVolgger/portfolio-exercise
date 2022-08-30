@@ -1,6 +1,7 @@
-<header>
-    <button routerLink="/"><img src="../../assets/img/logo_border.png" alt="Logo" class="logo"></button>
-    <nav>
+<header [class.header-dark]="darkMode">
+    <button *ngIf="!darkMode" routerLink="/"><img src="../../assets/img/logo_white_border.png" alt="Logo" class="logo"></button>
+    <button *ngIf="darkMode" routerLink="/"><img src="../../assets/img/logo_black_border.png" alt="Logo" class="logo"></button>
+    <nav [class.dark-links]="darkMode">
         <a routerLink="/">Home</a>
         <a href="">Curriculum</a>
         <a href="">Projects</a>
