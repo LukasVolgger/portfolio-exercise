@@ -7,7 +7,7 @@ header {
     right: 0;
     z-index: 1;
     background-color: transparent;
-    padding: 0 120px 0 120px;
+    padding: 16px 120px 0 120px;
     a {
         color: white;
         margin-left: 36px;
@@ -17,9 +17,14 @@ header {
             color: rgba(255, 255, 255, 0.8);
         }
     }
+    button {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
 }
 
 .logo {
-    width: 128px;
+    width: 96px;
     object-fit: contain;
 }
