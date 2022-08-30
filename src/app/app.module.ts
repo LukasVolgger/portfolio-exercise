@@ -3,14 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AppSlideshowComponent } from './app-slideshow/app-slideshow.component';
+import { SlideshowComponent } from './slideshow/slideshow.component';
 import { MenuComponent } from './menu/menu.component';
+import { ImprintComponent } from './imprint/imprint.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AppSlideshowComponent,
-    MenuComponent
+    SlideshowComponent,
+    MenuComponent,
+    ImprintComponent
   ],
   imports: [
     BrowserModule,

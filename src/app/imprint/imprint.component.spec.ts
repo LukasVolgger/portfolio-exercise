@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AppSlideshowComponent } from './app-slideshow.component';
+import { ImprintComponent } from './imprint.component';
 
-describe('AppSlideshowComponent', () => {
-  let component: AppSlideshowComponent;
-  let fixture: ComponentFixture<AppSlideshowComponent>;
+describe('ImprintComponent', () => {
+  let component: ImprintComponent;
+  let fixture: ComponentFixture<ImprintComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AppSlideshowComponent ]
+      declarations: [ ImprintComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(AppSlideshowComponent);
+    fixture = TestBed.createComponent(ImprintComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-slideshow',
-  templateUrl: './app-slideshow.component.html',
-  styleUrls: ['./app-slideshow.component.scss']
+  selector: 'slideshow',
+  templateUrl: './slideshow.component.html',
+  styleUrls: ['./slideshow.component.scss']
 })
-export class AppSlideshowComponent implements OnInit {
+export class SlideshowComponent implements OnInit {
 
   images = ['unique.jpg', 'quality.jpg', 'security.jpg'];
   headlines = [
